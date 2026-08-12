@@ -189,7 +189,7 @@ struct FMyCustomMovementSpec
 };
 ```
 
-在我们的CMC，重写 PhysCustom 和 OnMovementModeChanged 函数。
+在我们的 CMC，重写 PhysCustom 和 OnMovementModeChanged 函数。
 
 **MyCharacterMovementComponent**
 
@@ -463,7 +463,7 @@ void UAsyncAction_CustomMove::OnMovementCompleted()
 
 开启一个运动并绑定了它的委托。
 
-### 实现一个变速直线运动
+## 实现一个变速直线运动
 
 **MyCustomMovement_Curved**
 
@@ -536,7 +536,7 @@ FVector UMyCustomMovement_Curved::TickDeltaMovement(UCharacterMovementComponent*
 
 PostInitProperties 主要是保证我们的 Curve 是符合要求的。
 
-### 测试效果
+## 测试效果
 
 在编辑器中创建一个 CurveTable。
 
