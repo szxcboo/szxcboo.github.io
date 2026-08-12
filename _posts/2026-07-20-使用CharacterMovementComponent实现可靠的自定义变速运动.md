@@ -1,5 +1,5 @@
 ---
-title: 使用CharacterMovementComponent实现可靠的自定义变速运动
+title: 使用 CharacterMovementComponent 实现可靠的自定义变速运动
 date: 2026-07-20
 # categories: [TOP_CATEGORY, SUB_CATEGORY]
 # tags: [TAG]     # TAG names should always be lowercase
@@ -552,6 +552,6 @@ PostInitProperties 主要是保证我们的 Curve 是符合要求的。
 
 激活 GA，可以看到角色按照设置的曲线进行了变速运动。
 
-assets/img/posts/2026-07-20-使用CharacterMovementComponent实现可靠的自定义变速运动/image2.png
+![assets/img/posts/2026-07-20-使用CharacterMovementComponent实现可靠的自定义变速运动/image2.png](../assets/img/posts/2026-07-20-使用CharacterMovementComponent实现可靠的自定义变速运动/image2.png)
 
 得益于 CMC 完善的预测机制，我们无需实现额外的网络部分代码，在延迟 200ms 时客户端也可以有较好的体验。
